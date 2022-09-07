@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NoteKeeper</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="responsive.css" />
+  </head>
+  <body>
+    <div class="container">
+      <!-- nav start -->
+      <nav>
+        <div class="brand-name">
+          <span style="color: red">N</span>OTE
+          <span style="color: red">K</span>EEPER
+        </div>
+        <div class="nav-right">
+          <ul>
+            <li onclick="showbox()">+</li>
+          </ul>
+        </div>
+      </nav>
+      <!-- nav end -->
+
+      <!-- home section start -->
+      <section id="home">
+        <!-- <h1>hgdfh</h1> -->
+        <div id="input-text-div">
+          <textarea name="" id="inputText" rows="6" style="font-size:3rem ;"></textarea><br>
+          <button onclick="saveNote()" id="saveBtn">Save</button>
+        </div>
+        <div id="myNotes" >
+
+        </div>
+      </section>
+      <!-- home section end -->
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
